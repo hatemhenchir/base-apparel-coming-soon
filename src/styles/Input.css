@@ -1,0 +1,113 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.875rem;
+  margin-bottom: .3125rem;
+}
+form input {
+  height: 2.5rem;
+  width: 18.75rem;
+  border-radius: 1.25rem;
+  border: 1px solid hsl(0, 36%, 70%);
+  background: none;
+  padding-left: 1.25rem;
+}
+form input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+form input:focus {
+  outline: none;
+}
+.input_failed {
+  border: 1px solid hsl(0, 93%, 68%);
+}
+form button {
+  height: 2.5rem;
+  width: 3.125rem;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: none;
+  padding: .625rem 1.25rem;
+  border-radius: 1.25rem;
+  transform: translate(7.5rem, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+}
+form button:hover {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 80%, 86%));
+  box-shadow: 0 1rem 3rem hsl(0, 93%, 68%, 0.8);
+}
+.icon_error {
+  transform: translate(-4.375rem, -50%);
+  display: none;
+  position: absolute;
+}
+.icon_error.notOk {
+  display: block;
+}
+.validation {
+  font-size: .75rem;
+  font-weight: 600;
+  display: none;
+  width: 18.75rem;
+  margin: 0 1.875rem;
+  padding-left: 1.25rem;
+  color: hsl(0, 93%, 68%);
+}
+.validation.notOk {
+  display: block;
+}
+.test {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 22.875rem;
+}
+@media all and (min-width: 320px) {
+  form button {
+    transform: translate(7.5rem, 0);
+  }
+}
+
+@media all and (min-width: 350px) {
+  form button {
+    transform: translate(8.125rem, 0);
+  }
+  .icon_error {
+    transform: translate(-5rem, -0.625rem);
+  }
+}
+@media all and (min-width: 768px) {
+  .test {
+    width: 100%;
+    max-width: 100%;
+  }
+  .validation {
+    margin-left: 6.25rem;
+  }
+  form {
+    align-items: start;
+    justify-content: start;
+    padding-left: 6.25rem;
+  }
+  form input {
+    width: 25rem;
+  }
+  form button {
+    transform: translate(21.875rem, 0);
+    width: 4.375rem;
+  }
+  .icon_error {
+    transform: translate(-5.625rem, 30%);
+  }
+}
+@media all and (min-width: 1440px) {
+  form {
+    padding-left: 12.5rem;
+  }
+  .validation {
+    padding-left: 7.5rem;
+  }
+}

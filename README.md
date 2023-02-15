@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Base Apparel Coming Soon Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my submission for the Base Apparel Coming Soon challenge on Frontend Mentor! This project is a landing page that displays a "coming soon" message and a sign-up form for a clothing brand called Base Apparel. The landing page is fully responsive and uses ReactJS to provide an interactive user experience.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+- [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+- [Customization](#customization)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-In the project directory, you can run:
+## Features
+- Responsive design that works on desktops, tablets, and mobile devices
+- Sign-up form that collects and validates the user's email address
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- ReactJS
+- HTML
+- CSS
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+| ![](./screenshots/desktop.png) | ![](./screenshots/mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can view a live demo of the project at https://hatemhenchir.github.io/base-apparel-coming-soon/.
 
-### `npm run build`
+## Getting Started
+1. Clone or download the repository
+2. Navigate to the project directory in your terminal
+3. Run `npm install` to install the necessary dependencies
+4. Run `npm start` to start the development server
+5. The component will be available at http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Customization
+If you'd like to customize the landing page, here are some files you might want to modify:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- public/index.html: Update the title of the page to reflect your brand
+- src/assets/images/: Replace the images with your own brand's images
+- src/components/Header.jsx: Update the logo and links in the header
+- src/components/Hero.jsx: Update the hero section with your own content
+- src/components/Input.jsx: Update the form labels and error messages
+- src/components/ComingSoon.jsx: Update the message in the "coming soon" section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
+To deploy the component to a live environment, run `npm run build` and use the files in the `build` directory.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+Design inspiration and assets provided by [Frontend Mentor](https://www.frontendmentor.io/)
+- My LinkedIn: [@hatem-henchir-7a92141a8](https://www.linkedin.com/in/hatem-henchir-7a92141a8/)
+- My Frontend Mentor: [@hatemhenchir](https://www.frontendmentor.io/profile/hatemhenchir)

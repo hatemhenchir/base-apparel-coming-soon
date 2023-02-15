@@ -1,0 +1,52 @@
+.coming-soon {
+  text-align: center;
+  padding: 1.875rem;
+}
+.coming-soon h2 {
+  color: hsl(0, 36%, 70%);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  font-weight: 300;
+  letter-spacing: .4375rem;
+  margin-bottom: .625rem;
+}
+.coming-soon p {
+  color: hsl(0, 36%, 70%);
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+span {
+  display: block;
+  color: hsl(0, 6%, 24%);
+  font-weight: 600;
+  padding: 0 2.5rem;
+}
+@media all and (min-width: 768px) {
+  .coming-soon {
+    text-align: start;
+    padding-left: 6.25rem;
+    padding-top: 14.375rem;
+  }
+  .coming-soon h2 {
+    font-size: 3.75rem;
+
+    width: 25rem;
+    margin-bottom: 1.25rem;
+  }
+  span {
+    padding-left: 0;
+  }
+  .coming-soon p {
+    width: 25rem;
+    font-size: 15px;
+    line-height: 1.875rem;
+  }
+}
+@media all and (min-width: 1440px) {
+  .coming-soon {
+    padding-left: 12.5rem;
+    padding-top: 17.5rem;
+  }
+}
